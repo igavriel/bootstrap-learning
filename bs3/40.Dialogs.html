@@ -11,45 +11,42 @@
 
 <body>
     <!-- document code goes here -->
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="page-header">
-                <h1>Twitter Bootstrap <small>Modal Dialog example</small></h1>
+    <div class="row">
+        <div class="page-header">
+            <h1>Twitter Bootstrap <small>Modal Dialog example</small></h1>
+        </div>
+        <div class="modal hide" id="myDialog">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h3>Modal header</h3>
             </div>
-            <div class="modal hide" id="myDialog">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3>Modal header</h3>
-                </div>
-                <div class="modal-body">
-                    <p>I am some content that sits inside this dialog box</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="#" class="btn" data-dismiss="modal">Close</a>
-                    <a href="#" class="btn btn-primary">Save changes</a>
-                </div>
+            <div class="modal-body">
+                <p>I am some content that sits inside this dialog box</p>
             </div>
-
-            <a href="#myDialog" class="btn" data-toggle="modal">Open a Modal Dialog (Option-1)</a>
-
-            <button class="btn" data-toggle="modal" data-target="#myDialog">
-                Open a Modal Dialog (Option-2)
-            </button>
-
-            <p>This is some text with an embedded <a href="#" rel="tooltip"
-                    data-original-title="I Am Tooltip!">Tooltip</a> in line with the code</p>
-
-            <a href="#" cla ss="btn" data-toggle="popover" data-placement="top" data-content="Popover content goes here."
-                title="Popover on top">Popover on top</a>
-
-            <div class="popover left">
-                <div class="arrow"></div>
-                <h3 class="popover-title">Popover left</h3>
-                <div class="popover-content">
-                    <p>Pop over content goes here.</p>
-                </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal">Close</a>
+                <a href="#" class="btn btn-primary">Save changes</a>
             </div>
+        </div>
 
+        <a href="#myDialog" class="btn" data-toggle="modal">Open a Modal Dialog (Option-1)</a>
+
+        <button class="btn" data-toggle="modal" data-target="#myDialog">
+            Open a Modal Dialog (Option-2)
+        </button>
+
+        <p>This is some text with an embedded <a href="#" rel="tooltip" data-original-title="I Am Tooltip!">Tooltip</a>
+            in line with the code</p>
+
+        <a href="#" cla ss="btn" data-toggle="popover" data-placement="top" data-content="Popover content goes here."
+            title="Popover on top">Popover on top</a>
+
+        <div class="popover left">
+            <div class="arrow"></div>
+            <h3 class="popover-title">Popover left</h3>
+            <div class="popover-content">
+                <p>Pop over content goes here.</p>
+            </div>
         </div>
     </div>
     <!-- document code goes here -->

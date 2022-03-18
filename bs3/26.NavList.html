@@ -11,38 +11,79 @@
 
 <body>
     <!-- document code goes here -->
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Navigation List Example</h3>
-            <div class="span2">
-                <ul class="nav nav-list">
-                    <li class="nav-header">Pages</li>
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Settings</a></li>
-                    <li class="nav-header">Library</li>
-                    <li><a href="#">E-books</a></li>
-                    <li><a href="#">Paper books</a></li>
-                    <li class="divider"></li>
-                    <li><a href="#">Borrower List</a></li>
+    <div class="row">
+        <h3>Navigation List Example</h3>
+        <div class="col-md-2">
+            <ul class="nav nav-list">
+                <li class="nav-header">Pages</li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="nav-header">Library</li>
+                <li><a href="#">E-books</a></li>
+                <li><a href="#">Paper books</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Borrower List</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <h3>Navigation Bar Example</h3>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <a class="brand" href="#">My Application</a>
+                <ul class="nav">
+                    <li class="active"><a href="#">Menu 1</a></li>
+                    <li><a href="#">Menu 2</a></li>
+                    <li><a href="#">Menu 3</a></li>
+                    <li><a href="#">Menu 4</a></li>
+                    <li><a href="#">Menu 5</a></li>
+                    <li><a href="#">Menu 6</a></li>
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Options
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Option menu 1</a></li>
+                                <li><a href="#">Option menu 2</a></li>
+                                <li><a href="#">Option menu 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
                 </ul>
+                <form class="navbar-form pull-right">
+                    <input type="text" class="col-md-4" placeholder="User Name">
+                    <input type="text" class="col-md-4" placeholder="Password">
+                    <button type="submit" class="btn">Login</button>
+                </form>
             </div>
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Navigation Bar Example</h3>
-            <div class="navbar">
-                <div class="navbar-inner">
+    <div class="row">
+        <h3>Navigation Bar Collapse Example</h3>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <col-md- class="icon-bar"></col-md->
+                        <col-md- class="icon-bar"></col-md->
+                        <col-md- class="icon-bar"></col-md->
+                    </a>
                     <a class="brand" href="#">My Application</a>
-                    <ul class="nav">
-                        <li class="active"><a href="#">Menu 1</a></li>
-                        <li><a href="#">Menu 2</a></li>
-                        <li><a href="#">Menu 3</a></li>
-                        <li><a href="#">Menu 4</a></li>
-                        <li><a href="#">Menu 5</a></li>
-                        <li><a href="#">Menu 6</a></li>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="active"><a href="#">Menu 1</a></li>
+                            <li><a href="#">Menu 2</a></li>
+                            <li><a href="#">Menu 3</a></li>
+                            <li><a href="#">Menu 4</a></li>
+                            <li><a href="#">Menu 5</a></li>
+                            <li><a href="#">Menu 6</a></li>
+                        </ul>
                         <ul class="nav">
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -56,58 +97,11 @@
                                 </ul>
                             </li>
                         </ul>
-
-                    </ul>
-                    <form class="navbar-form pull-right">
-                        <input type="text" class="span4" placeholder="User Name">
-                        <input type="text" class="span4" placeholder="Password">
-                        <button type="submit" class="btn">Login</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Navigation Bar Collapse Example</h3>
-            <div class="navbar">
-                <div class="navbar-inner">
-                    <div class="container">
-                        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </a>
-                        <a class="brand" href="#">My Application</a>
-                        <div class="nav-collapse collapse">
-                            <ul class="nav">
-                                <li class="active"><a href="#">Menu 1</a></li>
-                                <li><a href="#">Menu 2</a></li>
-                                <li><a href="#">Menu 3</a></li>
-                                <li><a href="#">Menu 4</a></li>
-                                <li><a href="#">Menu 5</a></li>
-                                <li><a href="#">Menu 6</a></li>
-                            </ul>
-                            <ul class="nav">
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                        Options
-                                        <b class="caret"></b>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">Option menu 1</a></li>
-                                        <li><a href="#">Option menu 2</a></li>
-                                        <li><a href="#">Option menu 3</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                            <form class="navbar-form pull-right">
-                                <input type="text" class="span4" placeholder="User Name">
-                                <input type="text" class="span4" placeholder="Password">
-                                <button type="submit" class="btn">Login</button>
-                            </form>
-                        </div>
+                        <form class="navbar-form pull-right">
+                            <input type="text" class="col-md-4" placeholder="User Name">
+                            <input type="text" class="col-md-4" placeholder="Password">
+                            <button type="submit" class="btn">Login</button>
+                        </form>
                     </div>
                 </div>
             </div>

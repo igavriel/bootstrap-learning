@@ -2,153 +2,142 @@
 <html>
 
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
-    <meta charset="utf-8" />
-    <title>My Site</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+  <meta charset="utf-8" />
+  <title>My Site</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <!-- document code goes here -->
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Buttons Types</h3>
+  <!-- document code goes here -->
+  <div class="row">
+    <h3>Buttons Types</h3>
 
-            <button class="btn">Please Click Me</button><br /><br />
-            <button class="btn btn-primary">Please Click Me</button> <br /><br />
-            <button class="btn btn-info">Please Click Me</button> <br /><br />
-            <button class="btn btn-warning">Please Click Me</button> <br /><br />
-            <button class="btn btn-danger">Please Click Me</button> <br /><br />
-            <button class="btn btn-inverse">Please Click Me</button> <br /><br />
-            <button class="btn btn-success">Please Click Me</button>
-        </div>
-    </div>
+    <button class="btn">Please Click Me</button>
+    <button class="btn btn-primary">Please Click Me (Primary)</button>
+    <button class="btn btn-info">Please Click Me (Info)</button>
+    <button class="btn btn-success">Please Click Me (Success)</button>
+    <button class="btn btn-warning">Please Click Me (Warning)</button>
+    <button class="btn btn-danger">Please Click Me (Danger)</button> 
+    <button class="btn btn-link">Please Click Me (Link)</button>
+  </div>
 
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Buttons Sizes</h3>
-            <button class="btn">Please Click Me</button> <br /><br />
-            <button class="btn btn-primary btn-large">Please Click Me (Large)</button> <br /><br />
-            <button class="btn btn-info btn-default">Please Click Me (Default)</button> <br /><br />
-            <button class="btn btn-warning btn-small">Please Click Me (Small)</button> <br /><br />
-            <button class="btn btn-danger btn-mini">Please Click Me (Mini)</button> <br /><br />
-            <button class="btn btn-inverse btn-small">Please Click Me (Small)</button> <br /><br />
-            <button class="btn btn-success btn-block">Please Click Me (Block)</button>
-        </div>
-    </div>
+  <div class="row">
+    <h3>Buttons Sizes</h3>
+    <button class="btn">Please Click Me</button> <br />
+    <button class="btn btn-primary btn-lg">Please Click Me (Large)</button> <br />
+    <button class="btn btn-info btn-default">Please Click Me (Default)</button> ><br />
+    <button class="btn btn-warning btn-sm">Please Click Me (Small)</button> <br />
+    <button class="btn btn-danger btn-xs">Please Click Me (Extra Small)</button> <br />
+    <button class="btn btn-success btn-block">Please Click Me (Block)</button>
+  </div>
 
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Buttons Icons</h3>
-            <button class="btn"><i class="icon-heart"></i> Button Text</button>
-        </div>
-    </div>
+  <div class="row">
+    <h3>Buttons Icons</h3>
+    <button class="btn"><i class="glyphglyphicon-heart"></i> Button Text</button>
+  </div>
 
-    <div class="control-group">
-        <label class="control-label" for="inputIcon">Email address</label>
-        <div class="controls">
-          <div class="input-prepend">
-            <span class="add-on"><i class="icon-envelope"></i></span>
-            <input class="span2" id="inputIcon" type="text">
-          </div>
-        </div>
+  <div class="form-group">
+    <label class="control-label" for="inputIcon">Email address</label>
+    <div class="controls">
+      <div class="input-prepend">
+        <col-md- class="add-on"><i class="glyphicon-envelope"></i></col-md->
+        <input class="col-md-2" id="inputIcon" type="text">
       </div>
+    </div>
+  </div>
 
-    <div class="btn-group">
-        <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
-        <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+  <div class="btn-group">
+    <a class="btn btn-primary" href="#"><i class="glyphicon-user glyphicon-white"></i> User</a>
+    <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><col-md- class="caret"></col-md-></a>
+    <ul class="dropdown-menu">
+      <li><a href="#"><i class="glyphicon-pencil"></i> Edit</a></li>
+      <li><a href="#"><i class="glyphicon-trash"></i> Delete</a></li>
+      <li><a href="#"><i class="glyphicon-ban-circle"></i> Ban</a></li>
+      <li class="divider"></li>
+      <li><a href="#"><i class="i"></i> Make admin</a></li>
+    </ul>
+  </div>
+
+  <div class="row">
+    <h3>Button Dropdown Example</h3>
+
+    <div class="input-group">
+      <div class="btn-group">
+        <button class="btn dropdown-toggle" data-toggle="dropdown">
+          Action
+          <col-md- class="caret"></col-md->
+        </button>
         <ul class="dropdown-menu">
-          <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
-          <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
-          <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
-          <li class="divider"></li>
-          <li><a href="#"><i class="i"></i> Make admin</a></li>
+          ...
         </ul>
       </div>
-
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Button Dropdown Example</h3>
-
-            <div class="input-prepend input-append">
-                <div class="btn-group">
-                  <button class="btn dropdown-toggle" data-toggle="dropdown">
-                    Action
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    ...
-                  </ul>
-                </div>
-                <input class="span2" id="appendedPrependedDropdownButton" type="text">
-                <div class="btn-group">
-                  <button class="btn dropdown-toggle" data-toggle="dropdown">
-                    Action
-                    <span class="caret"></span>
-                  </button>
-                  <ul class="dropdown-menu">
-                    ...
-                  </ul>
-                </div>
-              </div>
-
-            <div class="btn-group">
-                <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> Action <span class="caret"></span> </a>
-                <ul class="dropdown-menu">
-                    <li>Menu 1</li>
-                    <li>Menu 2</li>
-                    <li>Menu 3</li>
-                </ul>
-            </div>
-
-            <div class="btn-group">
-                <button class="btn">Action</button>
-                <button class="btn dropdown-toggle" data-toggle="dropdown">
-                    <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu">
-                    <li>Menu 1</li>
-                    <li>Menu 2</li>
-                    <li>Menu 3</li>
-                </ul>
-            </div>
-            
-            <br />
-            <select>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-               
-              <select multiple="multiple">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-              </select>
-        </div>
+      <input class="col-md-2" id="appendedPrependedDropdownButton" type="text">
+      <div class="btn-group">
+        <button class="btn dropdown-toggle" data-toggle="dropdown">
+          Action
+          <col-md- class="caret"></col-md->
+        </button>
+        <ul class="dropdown-menu">
+          ...
+        </ul>
+      </div>
     </div>
 
-
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h3>Button Test Align Example</h3>
-            <div class="btn-group">
-                <button type="button" class="btn"><i class="icon-align-left"></i></button>
-                <button type="button" class="btn"><i class="icon-align-center"></i></button>
-                <button type="button" class="btn"><i class="icon-align-right"></i></button>
-                <button type="button" class="btn"><i class="icon-align-justify"></i></button>
-            </div>
-        </div>
+    <div class="btn-group">
+      <a class="btn dropdown-toggle" data-toggle="dropdown" href="#"> Action <col-md- class="caret"></col-md-> </a>
+      <ul class="dropdown-menu">
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 3</li>
+      </ul>
     </div>
-    <!-- document code goes here -->
 
-    <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
-    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <div class="btn-group">
+      <button class="btn">Action</button>
+      <button class="btn dropdown-toggle" data-toggle="dropdown">
+        <col-md- class="caret"></col-md->
+      </button>
+      <ul class="dropdown-menu">
+        <li>Menu 1</li>
+        <li>Menu 2</li>
+        <li>Menu 3</li>
+      </ul>
+    </div>
+
+    <br />
+    <select>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+
+    <select multiple="multiple">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
+
+
+  <div class="row">
+    <h3>Button Test Align Example</h3>
+    <div class="btn-group">
+      <button type="button" class="btn"><i class="glyphicon-align-left"></i></button>
+      <button type="button" class="btn"><i class="glyphicon-align-center"></i></button>
+      <button type="button" class="btn"><i class="glyphicon-align-right"></i></button>
+      <button type="button" class="btn"><i class="glyphicon-align-justify"></i></button>
+    </div>
+  </div>
+  <!-- document code goes here -->
+
+  <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+  <script src="js/bootstrap.js" type="text/javascript"></script>
 </body>
 
 </html>
