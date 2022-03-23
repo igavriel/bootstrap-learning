@@ -7,26 +7,71 @@
     <title>My Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <!-- document code goes here -->
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <h1>Twitter Bootstrap</h1>
-            <h3>Alignment and Emphasis</h3>
-            <h4 class="text-left">This is a left aligned heading level 4</h4>
-            <h4 class="text-center">This is a center aligned heading level 4</h4>
-            <h4 class="text-right">This is a right aligned heading level 4</h4>
-            <p class="text-center muted">This line of text has been muted.</p>
-            <p class="text-center text-error">This line of text should serve as an error.</p>
-            <p class="text-center text-warning">This line of text should serve as a warning.</p>
-            <p class="text-center text-success">This line of text should serve as a successful operation message.</p>
-            <p class="text-center text-info">This line of text should serve as an information message of some kind.</p>
-        </div>
+    <div class="row">
+        <h1>Twitter Bootstrap</h1>
+        <h3>Alignment and Emphasis</h3>
+        <h4 class="text-left">This is a left aligned heading level 4</h4>
+        <h4 class="text-center">This is a center aligned heading level 4</h4>
+        <h4 class="text-right">This is a right aligned heading level 4</h4>
+        <p class="text-justify"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla elit mi, pellentesque
+            sed
+            vehicula at. </p>
+        <p class="text-justify">Maecenas ultricies, sem eget accumsan vehicula, mi dui luctus tortor, iaculis vehicula
+            tortor justo et
+            purus. Sed fermentum mauris magna, quis faucibus arcu mattis et. Aenean vitae nisi sit amet enim
+            accumsan auctor. Mauris at lectus pellentesque, eleifend sapien sit amet. </p>
+        <p class="text-center text-muted">This line of text has been muted.</p>
+        <p class="text-center text-danger">This line of text should serve as danger.</p>
+        <p class="text-center text-warning">This line of text should serve as a warning.</p>
+        <p class="text-center text-success">This line of text should serve as a successful operation message.</p>
+        <p class="text-center text-info">This line of text should serve as an information message of some kind.</p>
     </div>
 
+    <p class="text-muted">This paragraph is using the muted text class, <strong>typically
+            reserved for something not really important or less prominent.</strong></p>
+    <p class="text-primary">This paragraph is using the primary text class,
+        <strong>typically reserved for something important or default and visible.</strong>
+    </p>
+    <p class="text-success">This paragraph is using the success text class,
+        <strong>typically reserved for an action that just succeeded or something good and
+            congratulatory.</strong>
+    </p>
+    <p class="text-info">This paragraph is using the info text class, <strong>typically
+            reserved for informal messages, such as a background job just finishing or a new file
+            available.</strong></p>
+    <p class="text-warning">This paragraph is using the warning text class,
+        <strong>typically reserved for something that might be dangerous or that needs
+            attention but can wait a while.</strong>
+    </p>
+    <p class="text-danger">This paragraph is using the danger text class,
+        <strong>typically reserved for something very important, or something that really
+            needs attention drawing to it.</strong>
+    </p>
+    <br /><br />
+    <p class="bg-primary">This paragraph is using normal text but with a primary
+        background color to tell you that what you're seeing is the default status.</p>
+    <p class="bg-success">This paragraph is using normal text but with a success
+        background color to tell you that what you're seeing is all good.</p>
+    <p class="bg-info">This paragraph is using normal text but with an info background
+        color to tell you that what you're seeing is informative and should be read, but not
+        always acted upon.</p>
+    <p class="bg-warning">This paragraph is using normal text but with a warning
+        background color to tell you that what you're seeing could cause problems that you
+        should be aware of.</p>
+    <p class="bg-danger">This paragraph is using normal text but with a danger background
+        color to tell you that what you're seeing needs you to pay attention to it now.</p>
+
+    <div class="bg-primary" style="width: 200px; height: 200px; padding: 4px;">
+        <button type="button" class="close" aria-hidden="true">&times;</button>
+        <p>This text appears in a div that has its own close icon attached to it.</p>
+        <div class="bg-success text-primary">
+            <div class="caret" />
+        </div>
+    </div>
     <!-- document code goes here -->
 
     <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
